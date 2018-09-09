@@ -1,17 +1,20 @@
 # H27(2015)国勢調査における丁目ポリゴン
-- 出典
+## 出典
     - [政府統計の総合窓口(e-Stat)境界データ(北海道)](https://www.e-stat.go.jp/gis/statmap-search?page=1&type=2&aggregateUnitForBoundary=A&toukeiCode=00200521&toukeiYear=2015&serveyId=A002005212015&prefCode=01&coordsys=1&format=shape)
-- ライセンス    
+## ライセンス    
     - CC BY 4.0 国際と互換性あり
     - その他ライセンスに関しては[こちらを参照](https://www.e-stat.go.jp/terms-of-use)
-- データ
+## データについて
     - e-Statからダウンロードしてきた北海道全域の境界データのShapeファイルを~~気味の悪い拡張子こと~~ GeoJSONで提供する
         - 気味の悪い拡張子については[こちら](http://www.itmedia.co.jp/news/articles/1806/08/news065.html)
     - e-Statの「境界データ」とは町丁・字等別の境界を示す
     - 文字コードはマスターのShift-JISをUTF-8に変換した
     - 投影法は世界測地系緯度経度(WGS84, EPSG:3857)
-    - 以下情報は[注意事項](https://www.e-stat.go.jp/sites/default/files/pdf/gis/notes/00200521.pdf)・[定義書](https://www.e-stat.go.jp/gis/statmap-search/data?datatype=2&serveyId=A002005212015&downloadType=1)よりコピー
-        - 注意事項
+    
+## その他諸元
+- 以下情報は[注意事項](https://www.e-stat.go.jp/sites/default/files/pdf/gis/notes/00200521.pdf)・[定義書](https://www.e-stat.go.jp/gis/statmap-search/data?datatype=2&serveyId=A002005212015&downloadType=1)よりコピー
+
+- 注意事項
             1. 国勢調査の町丁・字等境界データは、地方公共団体が調査を実施する際に設定した調査区の境界を基に作成しているため、住居表示等で用いられている実際の町丁・字の境界と一致しない場合があります。また、町丁・字の名称についても、一致しない場合があります。
             2. 一つの市区町村内に同一の町丁・字番号を持つ境域が複数存在する場合があり、このような場合には、重複フラグを付与し、識別できるようにしています。
             3. 町丁・字等の面積は、町丁・字等の境界データの図郭により算出したものであり、市区町村内のすべての町丁・字等の総計は、国土地理院等の公式な面積と一致しません。
