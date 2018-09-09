@@ -1,22 +1,29 @@
 # H27(2015)国勢調査における丁目ポリゴン
+- e-Statより北海道全域の境界データのShapeファイルをGeoJSONで提供する
+    
+<img src="https://i.gyazo.com/b18d75f3f5ea57d886e77fc26e00598a.jpg" width="640">
+<img src="https://i.gyazo.com/cacfaba82f18488dc277d87ba3ab3919.png" width="640">
+
 ## 出典
 - [政府統計の総合窓口(e-Stat)境界データ(北海道)](https://www.e-stat.go.jp/gis/statmap-search?page=1&type=2&aggregateUnitForBoundary=A&toukeiCode=00200521&toukeiYear=2015&serveyId=A002005212015&prefCode=01&coordsys=1&format=shape)
 
 ## ライセンス    
 - CC BY 4.0 国際と互換性あり
 - その他ライセンスに関しては[こちらを参照](https://www.e-stat.go.jp/terms-of-use)
+
 ## データについて
-- e-Statからダウンロードしてきた北海道全域の境界データのShapeファイルを~~気味の悪い拡張子こと~~ GeoJSONで提供する
-    - 気味の悪い拡張子については[こちら](http://www.itmedia.co.jp/news/articles/1806/08/news065.html)
 - e-Statの「境界データ」とは町丁・字等別の境界を示す
 - 文字コードはマスターのShift-JISをUTF-8に変換した
 - 投影法は世界測地系緯度経度(WGS84, EPSG:3857)
-    
+
+## ファイルは[こちら](https://www.dropbox.com/s/a6avpo8a5ixlprx/H27_hokkaido_estats.geojson?dl=0)
+-   Githubの25MB制限のため、とりあえずここにおいてます
+
 ## その他諸元
 
 - 以下情報は[注意事項](https://www.e-stat.go.jp/sites/default/files/pdf/gis/notes/00200521.pdf)・[定義書](https://www.e-stat.go.jp/gis/statmap-search/data?datatype=2&serveyId=A002005212015&downloadType=1)よりコピー
 
-- 注意事項
+### 注意事項
 
 1. 国勢調査の町丁・字等境界データは、地方公共団体が調査を実施する際に設定した調査区の境界を基に作成しているため、住居表示等で用いられている実際の町丁・字の境界と一致しない場合があります。また、町丁・字の名称についても、一致しない場合があります。
 
@@ -28,7 +35,7 @@
 
 5. 他県の飛び地の境域が市区町村に含まれる場合は、当該飛び地の境域情報も含まれます。また、水面調査区(※)がある場合には、同様に水面調査区の情報も含まれます。※ 水面調査区とは、重要港湾等の港湾区域並びに漁港及び河川の河口等の水域で水上生活者のいる区域をいいます。（定義書「HCODE」(分類コード)=8154 水面調査区）
 
-- データ定義
+### データ定義
 
 No.   | フィールド名  | 項目内容           | 備考    
 ----- | ---------- | ----------------- | -------------------------------------------
