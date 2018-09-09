@@ -1,5 +1,5 @@
 # H27(2015)国勢調査における丁目ポリゴン
-- e-Statより北海道全域の境界データのShapeファイルをGeoJSONで提供する
+- e-StatよりDLした北海道全域の境界データのShapeファイルをGeoJSONで提供する
     
 <img src="https://i.gyazo.com/b18d75f3f5ea57d886e77fc26e00598a.jpg" width="640">
 <img src="https://i.gyazo.com/cacfaba82f18488dc277d87ba3ab3919.png" width="640">
